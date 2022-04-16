@@ -149,3 +149,186 @@ background-position: center;
     color: var(--dark-blue);
 }
 /*--------------------| |--------------------*/
+
+
+/*--------------------| Trabajos |--------------------*/
+
+.contenedor_trabajos{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: red;
+}
+
+.cuadricula_trabajos{
+    width: 50%;
+    height: 500px;
+    max-height: 500px;
+    text-align: center;
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 1.5rem;
+    
+}
+.cuadricula_trabajos h2{
+    font-family: var(--font2);
+    font-size: 1.7rem;
+}
+.cuadricula_trabajos p{
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+#trabajo1{
+    background-image: url("Imagenes/Escritorio/image-graphic-design.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--dark-desaturated-cyan);
+}
+#trabajo2{
+    background-image: url("Imagenes/Escritorio/image-photography.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--dark-blue);
+}
+/*--------------------| |--------------------*/
+
+/*--------------------| Perfiles |--------------------*/
+.contenedor_comentarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    padding: 80px 0;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.contenedor_comentarios > h2{
+    font-size: 1.4rem;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: var(--dark-grayish-blue);
+font-family: var(--font2);
+}
+
+.contenedor_perfiles{
+    display: flex;
+    flex-direction: row;
+    padding: 60px 0;
+    justify-content: space-around;
+}
+
+.perfiles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 1rem;
+}
+.texto_perfiles{
+    margin: 2.5rem 0;
+    color: var(--dark-blue);
+    line-height: 1.5;
+}
+.perfiles > p:last-child{
+    color: var(--grayish-blue);
+}
+.perfiles h3{
+    color: var(--very-dark-desaturated-blue);
+font-family: var(--font2);
+margin-bottom: .7rem;
+}
+.perfiles img{
+    border-radius: 50%;
+    width: 50%;
+    width: 140px;
+height: 140px;
+}
+
+/*--------------------| |--------------------*/
+
+/*--------------------| Galeria |--------------------*/
+.contenedor_galeria{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+}
+.imagenes_galeria{
+    width: 25%;
+}
+.contenedor_galeria :first-child{
+    background-image: url("Imagenes/Escritorio/image-gallery-milkbottles.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.contenedor_galeria :nth-child(2){
+    background-image: url("Imagenes/Escritorio/image-gallery-orange.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.contenedor_galeria :nth-child(3){
+    background-image: url("Imagenes/Escritorio/image-gallery-cone.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.contenedor_galeria :nth-child(4){
+    background-image: url("Imagenes/Escritorio/image-gallery-sugarcubes.jpg");
+    background-position: center;
+    background-size: cover;
+}
+/*--------------------| |--------------------*/
+
+/*--------------------| Footer |--------------------*/
+footer{
+    background-color: #90D4C5;
+text-align: center;
+}
+.contenedor_footer{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    align-items: center;
+    padding: 80px 0;
+    width: 90%;
+    max-width: 1200px;
+}
+.contenedor_footer > img{
+    width: 200px;
+}
+.nav_footer_pagina{
+    display: flex;
+    flex-direction: row;
+
+    width: 90%;
+    max-width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_footer_pagina > a{
+    color: var(--dark-moderate-cyan);
+    text-decoration: none;
+    padding: 2rem 0 5rem;
+}
+
+.nav_footer_redes{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+
+.footer_redes{ 
+    margin: 0 1rem;
+}
+
+.footer_redes > img{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+/*--------------------| |--------------------*/
